@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start.html 
+keywords: quick start, get started 
+summary: Cloud Volumes ONTAP のパフォーマンスの監視を開始するには、いくつかの手順を実行します。 
+---
+= モニタリングサービスのクイックスタート
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP のパフォーマンスの監視を開始するには、いくつかの手順を実行します。
+
+
+
+== クイックスタート
+
+これらの手順を実行してすぐに作業を開始するか、残りのセクションまでスクロールして詳細を確認してください。
+
+.<span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png"[] Alt="one "></span> 設定のサポートを確認します
+* AWS または Azure で実行されている Cloud Volumes ONTAP システムが必要です。
+* AWS の場合、バージョン 3.8.4 以降を実行しているコネクタが必要です。
+* Azure では、バージョン 3.9.3 以降を実行するコネクタが必要です。
+
+
+[role="quick-margin-para"]
+link:task-enable-monitoring.html["要件の詳細を確認してください"]。
+
+.<span class="image"><img src="https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png"[] Alt="2"></span> 新規または既存のシステムでモニタリングを有効にします
+* 新しい作業環境：作業環境を作成するときは、必ず監視を有効にしてください（デフォルトで有効になっています）。
+* 既存の作業環境：作業環境を選択し、 * 監視の開始 * をクリックします。
+
+
+[role="quick-margin-para"]
+link:task-enable-monitoring.html["監視サービスの有効化の詳細については、こちらを参照してください"]。
+
+[role="quick-margin-para"]
+「 * Monitoring 」をクリックし、ボリュームのパフォーマンスデータを表示します。
+
+[role="quick-margin-para"]
+link:task-monitor-volumes.html["パフォーマンスの監視の詳細については、こちらをご覧ください"]。

@@ -1,0 +1,63 @@
+---
+settings:
+  name: Monitoring
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ja-jp,us-en,zh-cn,ko-kr
+sidebar:
+  entries:
+  - title: Cloud Manager のすべてのドキュメント
+    url: https://docs.netapp.com/us-en/cloud-manager-family
+  - title: ドキュメントを監視しています
+    url: "/index.html"
+  - title: リリースノート
+    url: "/whats-new.html"
+  - title: はじめに
+    entries:
+    - title: 監視サービスについて説明します
+      url: "/concept-monitoring.html"
+    - title: クイックスタート
+      url: "/task-quick-start.html"
+    - title: ボリュームのパフォーマンスの監視を開始します
+      url: "/task-enable-monitoring.html"
+  - title: 監視サービスを使用します
+    entries:
+    - title: ボリュームのパフォーマンスを監視
+      url: "/task-monitor-volumes.html"
+    - title: 監視サービスを無効にします
+      url: "/task-disable-monitoring.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録します
+      url: "/task-support-registration.html"
+    - title: ヘルプを表示します
+      url: "/task-get-help.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: はじめに
+    links:
+    - title: 監視サービスについて説明します
+      url: concept-monitoring.html
+    - title: クイックスタート
+      url: task-quick-start.html
+    - title: 監視を有効にします
+      url: task-enable-monitoring.html
+  - title: 監視サービスを使用します
+    links:
+    - title: ボリュームのパフォーマンスを監視
+      url: task-monitor-volumes.html
+  - title: ブログコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central のブログです
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events
+product-family: {}

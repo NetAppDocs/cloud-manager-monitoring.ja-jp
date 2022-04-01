@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: task-monitor-volumes.html 
+keywords: monitoring, cloud insights, tenant, acquisition unit, iops, throughput, latency, performance, cloud volumes ontap performance, volume performance 
+summary: Cloud Volumes ONTAP インスタンスの健常性とパフォーマンスを分析し、クラウドストレージ環境のパフォーマンスをトラブルシューティングして最適化できます。 
+---
+= ボリュームのパフォーマンスを監視
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP インスタンスの健常性とパフォーマンスを分析し、クラウドストレージ環境のパフォーマンスをトラブルシューティングして最適化できます。
+
+
+
+== Cloud Manager からボリュームを監視します
+
+各ボリュームの IOPS 、スループット、レイテンシを表示してパフォーマンスを監視します。
+
+.手順
+. Cloud Manager の上部で、 * Monitoring * をクリックします。
+. ダッシュボードの内容をフィルタして必要な情報を取得します。
++
+** 特定の作業環境を選択します。
+** 別の期間を選択してください。
+** 特定の SVM を選択します。
+** 特定のボリュームを検索します。
++
+次の図は、これらの各オプションを示しています。
+
++
+image:screenshot_filter_options.gif["ダッシュボードのコンテンツのフィルタリングに使用できるオプションを示す Monitoring （監視）タブのスクリーンショット。"]
+
+
+
+. 表内のボリュームをクリックして行を展開し、 IOPS 、スループット、レイテンシのタイムラインを確認します。
++
+image:screenshot_vol_performance.gif["ボリュームのパフォーマンスデータのスクリーンショット。"]
+
+. データを使用してパフォーマンスの問題を特定し、ユーザやアプリケーションへの影響を最小限に抑えます。
+
+
+
+
+== Cloud Insights から詳細情報を入手できます
+
+Cloud Manager の Monitoring （監視）タブには、ボリュームの基本的なパフォーマンスデータが表示されます。ブラウザから Cloud Insights Web インターフェイスにアクセスして、より詳細な監視を実行したり、 Cloud Volumes ONTAP システムのアラートを設定したりできます。
+
+.手順
+. Cloud Manager の上部で、 * Monitoring * をクリックします。
+. [*Cloud Insights *] リンクをクリックします。
++
+image:screenshot_cloud_insights.gif["監視タブの右上にある Cloud Insights リンクを示すスクリーンショット。"]
+
+
+
+Cloud Insights がブラウザの新しいタブで開きます。サポートが必要な場合は、を参照してください https://docs.netapp.com/us-en/cloudinsights["Cloud Insights のドキュメント"^]。

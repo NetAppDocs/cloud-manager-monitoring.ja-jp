@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: 監視サービスの新機能について説明します。 
+---
+= 新機能
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+監視サービスの新機能について説明します。
+
+
+
+== 2021 年 8 月 1 日
+
+
+
+=== Acquisition Unit の名前に変更します
+
+Acquisition Unit インスタンスのデフォルトの名前を CloudInsights - AU - _UUID_so に変更し、わかりやすい名前にしました（ UUID は生成されたハッシュです）。
+
+このインスタンスは、 Cloud Volumes ONTAP 作業環境で監視サービスを有効にすると Cloud Manager によって導入されます。
+
+
+
+== 2021 年 5 月 5 日
+
+
+
+=== 既存のテナントをサポート
+
+既存の Cloud Insights テナントがある場合でも、 Cloud Volumes ONTAP 作業環境で監視サービスを有効にできるようになりました。
+
+
+
+=== 無料トライアル移行
+
+監視サービスを有効にすると、 Cloud Manager は Cloud Insights の無償トライアルをセットアップします。29 日目に、計画は自動的に試用版からに移行します https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["Basic エディション"^]。
+
+
+
+== 2021 年 2 月 9 日
+
+
+
+=== Azure でのサポート
+
+Cloud Volumes ONTAP for Azure で監視サービスがサポートされるようになりました。
+
+
+
+=== 政府機関のサポート
+
+監視サービスは、 AWS および Azure の政府機関のリージョンでもサポートされます。
+
+
+
+== 2020 年 5 月 10 日
+
+
+
+=== 監視サービスの概要
+
+Cloud Manager は、ネットアップの Cloud Insights サービスを活用することで、 Cloud Volumes ONTAP インスタンスの正常性とパフォーマンスに関するインサイトを提供し、クラウドストレージ環境のパフォーマンスのトラブルシューティングと最適化を支援します。

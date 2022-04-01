@@ -1,0 +1,24 @@
+---
+sidebar: sidebar 
+permalink: task-disable-monitoring.html 
+keywords: disable monitoring, stop monitoring, disable, deactivate 
+summary: Cloud Volumes ONTAP の監視が不要になった場合は、いつでも監視サービスを無効にすることができます。 
+---
+= 監視サービスを無効にします
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP の監視が不要になった場合は、いつでも監視サービスを無効にすることができます。
+
+それぞれの作業環境で監視を無効にした場合は、仮想マシンインスタンスを自分で削除する必要があります。インスタンスの名前は _AcquisitionUnit_ で、生成されたハッシュ（ UUID ）が連結されます。例： _AcquisitionUnit - FANFqeH_
+
+.手順
+. Cloud Manager の上部にある * Canvas * をクリックします。
+. 作業環境を選択します。
+. 右側のペインで、をクリックします image:screenshot_gallery_options.gif["に表示されるオプションアイコンのスクリーンショット 作業環境を選択した後のサービスペイン"] アイコンをクリックし、 * スキャンを非アクティブ化 * を選択します。
+

@@ -1,0 +1,98 @@
+---
+sidebar: sidebar 
+permalink: task-enable-monitoring.html 
+keywords: monitoring, cloud insights, tenant, acquisition unit, iops, throughput, latency, performance, cloud volumes ontap performance, volume performance 
+summary: Cloud Volumes ONTAP のパフォーマンスの監視を開始するには、いくつかの手順を実行します。 
+---
+= ボリュームのパフォーマンスの監視を開始します
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP のパフォーマンスの監視を開始するには、いくつかの手順を実行します。
+
+
+
+== 要件
+
+以下の要件を読み、サポートされている構成になっていることを確認してください。
+
+サポートされる Cloud Volumes ONTAP のバージョン:: AWS または Azure 内の任意のバージョンの Cloud Volumes ONTAP 。
+サポートされているコネクタ::
++
+--
+* AWS の場合、バージョン 3.8.4 以降を実行しているコネクタが必要です。
+* Azure では、バージョン 3.9.3 以降を実行するコネクタが必要です。
+
+
+--
+
+
+
+TIP: をクリックすると、コネクタのバージョンを表示できます image:screenshot_help_icon.gif["右上のヘルプアイコンのスクリーンショット のサポートされています"] アイコンをクリックして、 [ サポート（ Support ） ] > [ コネクター（ Connector ） ]
+
+Cloud Central の E メールアドレス:: Cloud Central ユーザアカウントの E メールアドレスは、業務用 E メールアドレスである必要があります。Cloud Insights テナントの作成時には、 Gmail や Hotmail などの無料電子メールドメインはサポートされていません。
+Acquisition Unit のネットワーク:: Acquisition Unit は、 Cloud Insights サーバへの接続に双方向認証を使用します。認証するには、クライアント証明書を Cloud Insights サーバに渡す必要があります。これを実現するには、データを復号化せずに HTTP 要求を Cloud Insights サーバに転送するようにプロキシを設定する必要があります。
++
+--
+Acquisition Unit は、 Cloud Insights との通信に次の 2 つのエンドポイントを使用します。Acquisition Unit サーバと Cloud Insights の間にファイアウォールがある場合は、ファイアウォールルールを設定する際に次のエンドポイントが必要です。
+
+....
+https://aulogin.<Cloud Insights Domain>
+https://<your-tenant-ID>.<Cloud Insights Domain>
+....
+例：
+
+....
+https://aulogin.c01.cloudinsights.netapp.com
+https://cg0c586a-ee05-45rb-a5ac-333b5ae7718d7.c01.cloudinsights.netapp.com
+....
+Cloud Insights ドメインとテナント ID の特定についてサポートが必要な場合は、製品内チャットでお問い合わせください。
+
+--
+コネクタのネットワーク:: Acquisition Unit と同様に、コネクタは Cloud Insights テナントにアウトバウンド接続する必要があります。しかし、コネクタが接触するエンドポイントはわずかに異なります。テナントの短縮 ID を使用してテナントホストの URL にアクセスします。
++
+--
+ https://<your-short-tenant-ID>.<Cloud Insights Domain>
+例：
+
+ https://abcd12345.c01.cloudinsights.netapp.com
+テナントホストの URL の特定についてサポートが必要な場合は、製品内のチャットでお問い合わせください。
+
+--
+
+
+
+
+== 新しいシステムで監視を有効にします
+
+監視サービスは、作業環境ウィザードではデフォルトで有効になっています。このオプションは必ず有効にしておいてください。
+
+.手順
+. [ Cloud Volumes ONTAP の作成 *] をクリックします。
+. クラウドプロバイダとして Amazon Web Services または Microsoft Azure を選択し、シングルノードまたは HA システムを選択します。
+. [ 詳細と資格情報 ] ページに入力します。
+. [ サービス ] ページで、監視サービスを有効のままにして、 [* 続行 ] をクリックします。
++
+image:screenshot_monitoring.gif["作業環境ウィザードから有効にできる監視サービスのスクリーンショット。"]
+
+
+
+
+
+== 既存のシステムで監視を有効にする
+
+作業環境からいつでも監視を有効にできます。
+
+.手順
+. Cloud Manager の上部にある * Canvas * をクリックします。
+. 作業環境を選択します。
+. 右側のペインで、 * モニタリングの開始 * をクリックします。
++
+image:screenshot_enable_monitoring.gif["[ 作業環境を選択した後にキャンバスページで使用できる監視の開始アイコンを示すスクリーンショット。"]
+
+
