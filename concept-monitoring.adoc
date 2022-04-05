@@ -40,7 +40,7 @@ summary: ネットアップの Cloud Insights サービスを活用すること�
 
 == 監視サービスの仕組み
 
-Cloud Manager には https://cloud.netapp.com/cloud-insights["ネットアップの Cloud Insights サービス"] 監視機能を提供します。
+Cloud Manager には https://cloud.netapp.com/cloud-insights["ネットアップの Cloud Insights サービス"^] 監視機能を提供します。
 
 Cloud Insights と Cloud Manager の統合の概要は次のようになります。
 
@@ -101,8 +101,8 @@ Cloud Manager の Monitoring （監視）タブには、ボリュームの基本
 
 Cloud Manager を使用すると、 Cloud Insights の無償トライアルで Cloud Manager 内のパフォーマンスデータを提供し、 Cloud Insights Standard Edition の機能を試すことができます。
 
-29 日目に、計画は自動的に試用版からに移行します https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["Basic エディション"^]。
+29 日目に、計画は自動的に試用版からに移行します https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["Basic エディション"^]
 
 Cloud Insights Web インターフェイスから追加機能にアクセスするには、 Standard Edition または Premium Edition に登録することもできます。
 
-https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html["Cloud Insights に登録する方法について説明します"^]。
+https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html["Cloud Insights に登録する方法について説明します"^]

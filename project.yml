@@ -22,7 +22,7 @@ sidebar:
       url: "/concept-monitoring.html"
     - title: クイックスタート
       url: "/task-quick-start.html"
-    - title: ボリュームのパフォーマンスの監視を開始します
+    - title: 監視を有効にします
       url: "/task-enable-monitoring.html"
   - title: 監視サービスを使用します
     entries:

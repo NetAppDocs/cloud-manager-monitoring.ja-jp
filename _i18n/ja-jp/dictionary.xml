@@ -45,7 +45,6 @@
   <block id="10e15e8c8cca4454457cc4aaa2a56097" category="section-title">2020 年 5 月 10 日</block>
   <block id="bd64f294036bab1f6e7e3bfc511da26b" category="section-title">監視サービスの概要</block>
   <block id="2e68ff3befd8bbfb2e75d69f325369b3" category="paragraph">Cloud Manager は、ネットアップの Cloud Insights サービスを活用することで、 Cloud Volumes ONTAP インスタンスの正常性とパフォーマンスに関するインサイトを提供し、クラウドストレージ環境のパフォーマンスのトラブルシューティングと最適化を支援します。</block>
-  <block id="aa6490d8d0bb54f0f72cb49b62bd06bf" category="doc">ボリュームのパフォーマンスの監視を開始します</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">要件</block>
   <block id="4b09bdd4ca435f6a4b77b142f9481573" category="paragraph">以下の要件を読み、サポートされている構成になっていることを確認してください。</block>
   <block id="e448b41406bd3d4d9730e610e85df32d" category="list-text">サポートされる Cloud Volumes ONTAP のバージョン</block>
@@ -113,7 +112,6 @@
   <block id="fa19b0daec31b7f6886f071c67bfffb7" category="paragraph">ネットアップは監視サービスの使用を無償で提供していますが、 Cloud Manager は VPC で仮想マシンを起動して監視を容易にします。この VM を使用すると、クラウドプロバイダから料金が発生します。</block>
   <block id="d503d3398231cca32efdcf7ed7343e9b" category="section-title">監視サービスの仕組み</block>
   <block id="fbc1b4a0f7bb67078efc945ccc522209" category="inline-link">ネットアップの Cloud Insights サービス</block>
-  <block id="86dd05002b53a9ec34631df8c61c5eb5" category="paragraph">Cloud Manager には<block ref="8f14085ef9c431637844b17f8a8925a1" category="inline-link-rx"></block> 監視機能を提供します。</block>
   <block id="45c5224446b8976746c72ff5d83fa9b0" category="paragraph">Cloud Insights と Cloud Manager の統合の概要は次のようになります。</block>
   <block id="268403689d82b63a213d45d09ea47780" category="list-text">Cloud Volumes ONTAP で監視サービスを有効にした場合。</block>
   <block id="6ac560cbe2255cabde3b2b9e7877bcb8" category="list-text">Cloud Manager によって環境が設定されます。次の処理を行います。</block>
@@ -143,7 +141,6 @@
   <block id="93640c5afac4938bee23d7df2567bb9d" category="paragraph">Cloud Manager を使用すると、 Cloud Insights の無償トライアルで Cloud Manager 内のパフォーマンスデータを提供し、 Cloud Insights Standard Edition の機能を試すことができます。</block>
   <block id="3b7f31bb4dbb02b16991990721560e9e" category="paragraph">Cloud Insights Web インターフェイスから追加機能にアクセスするには、 Standard Edition または Premium Edition に登録することもできます。</block>
   <block id="cd787eb9914f30d028c173de936884d8" category="inline-link">Cloud Insights に登録する方法について説明します</block>
-  <block id="ea897b0b99e2fad4f21581f468aafa9c" category="paragraph"><block ref="46bde63c6461fde9a8b1bdd87e23ae20" category="inline-link-rx"></block>。</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">ネットアップでは、 Cloud Manager をさまざまな方法でサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
   <block id="7ccaf84febc0ed633fbdbadb8d488a7e" category="paragraph"><block ref="7ccaf84febc0ed633fbdbadb8d488a7e" category="inline-link-macro-rx"></block></block>
@@ -170,4 +167,7 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
   <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021 年 2 月 9 日</block>
+  <block id="69fc053eff677eeec878466b0fed698d" category="paragraph">Cloud Manager には<block ref="044f4e0e04c4f89c85847517222669b4" category="inline-link-rx"></block> 監視機能を提供します。</block>
+  <block id="9553e123fee6cb25d4b917ebf7b88617" category="paragraph">29 日目に、計画は自動的に試用版からに移行します<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block></block>
+  <block id="46bde63c6461fde9a8b1bdd87e23ae20" category="paragraph"><block ref="46bde63c6461fde9a8b1bdd87e23ae20" category="inline-link-rx"></block></block>
 </blocks>
