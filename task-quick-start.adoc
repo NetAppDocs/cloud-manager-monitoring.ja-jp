@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP のパフォーマンスの監視を開始するに
 ---
 = モニタリングサービスのクイックスタート
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP のパフォーマンスの監視を開始するに
 ---
 = 監視を有効にします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

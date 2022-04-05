@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP の監視が不要になった場合は、いつで
 ---
 = 監視サービスを無効にします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

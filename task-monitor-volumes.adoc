@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP インスタンスの健常性とパフォーマン
 ---
 = ボリュームのパフォーマンスを監視
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
