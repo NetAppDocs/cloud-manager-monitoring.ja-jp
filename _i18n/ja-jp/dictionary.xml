@@ -29,7 +29,6 @@
   <block id="8af580a9a4eb8c37f4d3a80e90478654" category="list-text">右側のペインで、をクリックします <block ref="2672f207370cb64bb5a95d61842ce25b" category="inline-image-macro-rx" type="image"></block> アイコンをクリックし、 * スキャンを非アクティブ化 * を選択します。</block>
   <block id="c6712c57a0afb817a7b956edea075886" category="summary">監視サービスの新機能について説明します。</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">新機能</block>
-  <block id="feaee5d58494deaebb1ce5a1c3fce93b" category="section-title">2021 年 8 月 1 日</block>
   <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">Acquisition Unit の名前に変更します</block>
   <block id="6894648546fd35a9ed4c63e020255bbb" category="paragraph">Acquisition Unit インスタンスのデフォルトの名前を CloudInsights - AU - _UUID_so に変更し、わかりやすい名前にしました（ UUID は生成されたハッシュです）。</block>
   <block id="3ee7977b62b54344390843236b7b7fbe" category="paragraph">このインスタンスは、 Cloud Volumes ONTAP 作業環境で監視サービスを有効にすると Cloud Manager によって導入されます。</block>
@@ -39,7 +38,6 @@
   <block id="261bb9c11863cc45e7b0056b34cabf2c" category="section-title">無料トライアル移行</block>
   <block id="4f407ad617aec7f56138e7f5dcb581be" category="inline-link">Basic エディション</block>
   <block id="1cb2499c8013bb0ab523a856eeaa4c6f" category="paragraph">監視サービスを有効にすると、 Cloud Manager は Cloud Insights の無償トライアルをセットアップします。29 日目に、計画は自動的に試用版からに移行します<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block>。</block>
-  <block id="efeacc9945f3d51aeaecae7e217dd7c9" category="section-title">2021 年 2 月 9 日</block>
   <block id="049a56718afb4bc754cebf8a5567c3c8" category="section-title">Azure でのサポート</block>
   <block id="0627ad1b1205310c0a00e6213dc9ee59" category="paragraph">Cloud Volumes ONTAP for Azure で監視サービスがサポートされるようになりました。</block>
   <block id="308527077ec474b731b7715b5cd1deb2" category="section-title">政府機関のサポート</block>
@@ -170,4 +168,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central のブログです</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
+  <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021 年 8 月 1 日</block>
+  <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021 年 2 月 9 日</block>
 </blocks>
